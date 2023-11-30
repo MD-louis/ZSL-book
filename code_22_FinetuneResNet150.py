@@ -116,7 +116,8 @@ def Reduction_img(tensor,mean,std):#还原图片
 #filenames, labels,classes = load_data(dataset_path)   
 
 #dataset_path = r'./data/images' 
-dataset_path = r"D:\样本\图片\Caltech-UCSD Birds-200-2011\Caltech-UCSD Birds-200-2011\CUB_200_2011\images"
+dataset_path = r"/kaggle/input/cub-200-2011/CUB_200_2011/CUB_200_2011/images"
+#dataset_path = r"D:\样本\图片\Caltech-UCSD Birds-200-2011\Caltech-UCSD Birds-200-2011\CUB_200_2011\images"
    
 tfile_labels,classes = load_dir(dataset_path,classend = 150) 
 filenames, labels=zip(*tfile_labels)
