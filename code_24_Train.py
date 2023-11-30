@@ -183,7 +183,8 @@ def get_attributes(url,function=None):
 input_dim=312
 classNum=200
 unseenclassnum=50
-data_path=r'D:\样本\图片\Caltech-UCSD Birds-200-2011\Caltech-UCSD Birds-200-2011'
+data_path=r'/kaggle/input/cub-200-2011/CUB_200_2011'
+#data_path=r'D:\样本\图片\Caltech-UCSD Birds-200-2011\Caltech-UCSD Birds-200-2011'
 attributes_url = os.path.join(data_path,"CUB_200_2011/attributes/class_attribute_labels_continuous.txt")
 all_class_url = os.path.join(data_path, "CUB_200_2011/classes.txt")
 
