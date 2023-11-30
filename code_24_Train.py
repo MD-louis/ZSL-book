@@ -225,6 +225,7 @@ G = dgl.DGLGraph()
 G.add_nodes(classNum) #生成DGL节点
 #G.add_edges([(u, u) for u in range(classNum)]) 
 G.add_edges(G.nodes(), G.nodes())
+G=G.to(device)
 Net = GCN( input_dim, output_dim, hidden_layers,device).to(device)
 
 
